@@ -1,0 +1,14 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. LEARNING.
+       
+       ENVIRONMENT DIVISION.
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+
+       01 WS-HELLO       PIC x(12).
+
+       PROCEDURE DIVISION.
+       MAIN-PARA.
+           MOVE "HELLO WORLD" TO WS-HELLO.
+           DISPLAY WS-HELLO.
+           STOP RUN.

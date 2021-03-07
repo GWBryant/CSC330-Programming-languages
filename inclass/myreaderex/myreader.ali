@@ -1,0 +1,72 @@
+V "GNAT Lib v2020"
+M P W=b
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+
+U myreader%b		myreader.adb		6a90bf01 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20200228061809 76789da1 ada%s
+D a-except.ads		20200228061809 a7106115 ada.exceptions%s
+D a-ioexce.ads		20200228061809 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200228061809 119b8fb3 ada.streams%s
+D a-tags.ads		20200228061809 edddc8f0 ada.tags%s
+D a-textio.ads		20200228061809 aef4d56d ada.text_io%s
+D a-unccon.ads		20200228061809 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200228061809 5ab55268 interfaces%s
+D i-cstrea.ads		20200228061809 e53d8b8e interfaces.c_streams%s
+D myreader.adb		20201027224248 20c47508 myreader%b
+D system.ads		20200228061809 4635ec04 system%s
+D s-crtl.ads		20200228061809 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200228061809 54135002 system.exception_table%s
+D s-ficobl.ads		20200228061809 078245e4 system.file_control_block%s
+D s-parame.ads		20200228061809 4752c4cb system.parameters%s
+D s-secsta.ads		20200327060539 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200228061809 a7318a92 system.soft_links%s
+D s-stache.ads		20200228061809 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200228061809 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200228061809 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200228061809 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200319060539 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200228061809 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [myreader standard 6 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 10|1r6 2r5 3r6 4r5 8r15 15r5 15r48 18r15 19r9 24r14 24r45 28r12
+. 31r5
+X 3 a-ioexce.ads
+18K13*IO_Exceptions 30e22 10|3w10 4r9 24r18
+26X4*End_Error 10|24r32
+X 6 a-textio.ads
+57K13*Text_IO 727e16 10|1w10 2r9 8r19 15r9 15r52 18r19 19r13 24r49 28r16
+. 31r9
+64P9*File_Type 10|8r27
+66n23*In_File{66E9} 10|15r60
+114U14*Open 10|15s17
+115p7 File{64P9} 10|15r23
+116e7 Mode{66E9} 10|15r40
+117a7 Name{string} 10|15r69
+129U14*Close 10|24s57
+129p22 File{64P9} 10|24r63
+264U14*New_Line 10|31s17
+312V13*End_Of_File{boolean} 10|18s27
+378U14*Get 10|19s21
+378p19 File{64P9} 10|19r26
+378e37 Item{character} 10|19r43
+392U14*Put 10|28s24
+392e19 Item{character} 10|28r29
+X 10 myreader.adb
+6U11*myreader 6b11 32l5 32t13
+8p5 In_File{6|64P9} 15m31 15r31 18r39 19r34 24m71 24r71
+9e5 value{character} 19m51 21r30
+10a5 string_array(character) 21m9 28r37
+11i5 pos{integer} 17m5 20m9 20r16 21r22 27r16
+27i8 i{integer} 28r50
+
