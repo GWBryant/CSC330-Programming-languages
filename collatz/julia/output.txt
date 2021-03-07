@@ -1,0 +1,13 @@
+/bin/bash: line 96:  9558 Killed                  collatz.jl
+
+real	1240m30.649s
+user	1240m7.592s
+sys	0m22.866s
+
+2610744987 1050
+4578853915 1087
+4890328815 1131
+
+real	43m42.782s
+user	43m34.969s
+sys	0m8.638s
