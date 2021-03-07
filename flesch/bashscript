@@ -1,0 +1,235 @@
+#!/bin/bash
+clear
+#c++
+echo "Language       Translation       Flesch       Flesch-Kincaid       Dale-Chall" 
+echo "-----------------------------------------------------------------------------"
+cd c++
+c++ tokenize.cpp
+echo -ne "c++            "
+echo -ne "ASV               "
+a.out /pub/pounds/CSC330/translations/ASV.txt
+echo -ne "c++            "
+echo -ne "BBE               "
+a.out /pub/pounds/CSC330/translations/BBE.txt
+echo -ne "c++            "
+echo -ne "DARBY             "
+a.out /pub/pounds/CSC330/translations/DARBY.txt
+echo -ne "c++            "
+echo -ne "DRB               "
+a.out /pub/pounds/CSC330/translations/DRB.txt
+echo -ne "c++            "
+echo -ne "KJ21              "
+a.out /pub/pounds/CSC330/translations/KJ21.txt
+echo -ne "c++            "
+echo -ne "KJV               "
+a.out /pub/pounds/CSC330/translations/KJV.txt
+echo -ne "c++            "
+echo -ne "NAB               "
+a.out /pub/pounds/CSC330/translations/NAB.txt
+echo -ne "c++            "
+echo -ne "NASB              "
+a.out /pub/pounds/CSC330/translations/NASB.txt
+echo -ne "c++            "
+echo -ne "NIV               "
+a.out /pub/pounds/CSC330/translations/NIV.txt
+echo -ne "c++            "
+echo -ne "NKJV              "
+a.out /pub/pounds/CSC330/translations/NKJV.txt
+echo -ne "c++            "
+echo -ne "NLT               "
+a.out /pub/pounds/CSC330/translations/NLT.txt
+echo -ne "c++            "
+echo -ne "WEB               "
+a.out /pub/pounds/CSC330/translations/WEB.txt
+echo -ne "c++            "
+echo -ne "YLT_original      "
+a.out /pub/pounds/CSC330/translations/YLT_original.txt
+echo -ne "c++            "
+echo -ne "YLT               "
+a.out /pub/pounds/CSC330/translations/YLT.txt
+cd ..
+#java
+echo "-----------------------------------------------------------------------------"
+cd java
+javac Flesch.java
+echo -ne "java           "
+echo -ne "ASV               "
+java Flesch /pub/pounds/CSC330/translations/ASV.txt
+echo -ne "java           "
+echo -ne "BBE               "
+java Flesch /pub/pounds/CSC330/translations/BBE.txt
+echo -ne "java           "
+echo -ne "DARBY             "
+java Flesch /pub/pounds/CSC330/translations/DARBY.txt
+echo -ne "java           "
+echo -ne "DRB               "
+java Flesch /pub/pounds/CSC330/translations/DRB.txt
+echo -ne "java           "
+echo -ne "KJ21              "
+java Flesch /pub/pounds/CSC330/translations/KJ21.txt
+echo -ne "java           "
+echo -ne "KJV               "
+java Flesch /pub/pounds/CSC330/translations/KJV.txt
+echo -ne "java           "
+echo -ne "NAB               "
+java Flesch /pub/pounds/CSC330/translations/NAB.txt
+echo -ne "java           "
+echo -ne "NASB              "
+java Flesch /pub/pounds/CSC330/translations/NASB.txt
+echo -ne "java           "
+echo -ne "NIV               "
+java Flesch /pub/pounds/CSC330/translations/NIV.txt
+echo -ne "java           "
+echo -ne "NKJV              "
+java Flesch /pub/pounds/CSC330/translations/NKJV.txt
+echo -ne "java           "
+echo -ne "NLT               "
+java Flesch /pub/pounds/CSC330/translations/NLT.txt
+echo -ne "java           "
+echo -ne "WEB               "
+java Flesch /pub/pounds/CSC330/translations/WEB.txt
+echo -ne "java           "
+echo -ne "YLT_original      "
+java Flesch /pub/pounds/CSC330/translations/YLT_original.txt
+echo -ne "java           "
+echo -ne "YLT               "
+java Flesch /pub/pounds/CSC330/translations/YLT.txt
+cd ..
+#python
+echo "-----------------------------------------------------------------------------"
+cd python
+echo -ne "python         "
+echo -ne "ASV               "
+python3 Flesch.py /pub/pounds/CSC330/translations/ASV.txt
+echo -ne "python         "
+echo -ne "BBE               "
+python3 Flesch.py /pub/pounds/CSC330/translations/BBE.txt
+echo -ne "python         "
+echo -ne "DARBY             "
+python3 Flesch.py /pub/pounds/CSC330/translations/DARBY.txt
+echo -ne "python         "
+echo -ne "DRB               "
+python3 Flesch.py /pub/pounds/CSC330/translations/DRB.txt
+echo -ne "python         "
+echo -ne "KJ21              "
+python3 Flesch.py /pub/pounds/CSC330/translations/KJ21.txt
+echo -ne "python         "
+echo -ne "KJV               "
+python3 Flesch.py /pub/pounds/CSC330/translations/KJV.txt
+echo -ne "python         "
+echo -ne "NAB               "
+python3 Flesch.py /pub/pounds/CSC330/translations/NAB.txt
+echo -ne "python         "
+echo -ne "NASB              "
+python3 Flesch.py /pub/pounds/CSC330/translations/NASB.txt
+echo -ne "python         "
+echo -ne "NIV               "
+python3 Flesch.py /pub/pounds/CSC330/translations/NIV.txt
+echo -ne "python         "
+echo -ne "NKJV              "
+python3 Flesch.py /pub/pounds/CSC330/translations/NKJV.txt
+echo -ne "python         "
+echo -ne "NLT               "
+python3 Flesch.py /pub/pounds/CSC330/translations/NLT.txt
+echo -ne "python         "
+echo -ne "WEB               "
+python3 Flesch.py /pub/pounds/CSC330/translations/WEB.txt
+echo -ne "python         "
+echo -ne "YLT_original      "
+python3 Flesch.py /pub/pounds/CSC330/translations/YLT_original.txt
+echo -ne "python         "
+echo -ne "YLT               "
+python3 Flesch.py /pub/pounds/CSC330/translations/YLT.txt
+cd ..
+#perl
+echo "-----------------------------------------------------------------------------"
+cd perl
+echo -ne "perl           "
+echo -ne "ASV               "
+perl tokenizer.pl /pub/pounds/CSC330/translations/ASV.txt
+echo -ne "perl           "
+echo -ne "BBE               "
+perl tokenizer.pl /pub/pounds/CSC330/translations/BBE.txt
+echo -ne "perl           "
+echo -ne "DARBY             "
+perl tokenizer.pl /pub/pounds/CSC330/translations/DARBY.txt
+echo -ne "perl           "
+echo -ne "DRB               "
+perl tokenizer.pl /pub/pounds/CSC330/translations/DRB.txt
+echo -ne "perl           "
+echo -ne "KJ21              "
+perl tokenizer.pl /pub/pounds/CSC330/translations/KJ21.txt
+echo -ne "perl           "
+echo -ne "KJV               "
+perl tokenizer.pl /pub/pounds/CSC330/translations/KJV.txt
+echo -ne "perl           "
+echo -ne "NAB               "
+perl tokenizer.pl /pub/pounds/CSC330/translations/NAB.txt
+echo -ne "perl           "
+echo -ne "NASB              "
+perl tokenizer.pl /pub/pounds/CSC330/translations/NASB.txt
+echo -ne "perl           "
+echo -ne "NIV               "
+perl tokenizer.pl /pub/pounds/CSC330/translations/NIV.txt
+echo -ne "perl           "
+echo -ne "NKJV              "
+perl tokenizer.pl /pub/pounds/CSC330/translations/NKJV.txt
+echo -ne "perl           "
+echo -ne "NLT               "
+perl tokenizer.pl /pub/pounds/CSC330/translations/NLT.txt
+echo -ne "perl           "
+echo -ne "WEB               "
+perl tokenizer.pl /pub/pounds/CSC330/translations/WEB.txt
+echo -ne "perl           "
+echo -ne "YLT_original      "
+perl tokenizer.pl /pub/pounds/CSC330/translations/YLT_original.txt
+echo -ne "perl           "
+echo -ne "YLT               "
+perl tokenizer.pl /pub/pounds/CSC330/translations/YLT.txt
+cd ..
+#fortran
+echo "-----------------------------------------------------------------------------"
+cd fortran
+gfortran flesch.f95
+echo -ne "fortran        "
+echo -ne "ASV               "
+a.out /pub/pounds/CSC330/translations/ASV.txt
+echo -ne "fortran        "
+echo -ne "BBE               "
+a.out /pub/pounds/CSC330/translations/BBE.txt
+echo -ne "fortran        "
+echo -ne "DARBY             "
+a.out /pub/pounds/CSC330/translations/DARBY.txt
+echo -ne "fortran        "
+echo -ne "DRB               "
+a.out /pub/pounds/CSC330/translations/DRB.txt
+echo -ne "fortran        "
+echo -ne "KJ21              "
+a.out /pub/pounds/CSC330/translations/KJ21.txt
+echo -ne "fortran        "
+echo -ne "KJV               "
+a.out /pub/pounds/CSC330/translations/KJV.txt
+echo -ne "fortran        "
+echo -ne "NAB               "
+a.out /pub/pounds/CSC330/translations/NAB.txt
+echo -ne "fortran        "
+echo -ne "NASB              "
+a.out /pub/pounds/CSC330/translations/NASB.txt
+echo -ne "fortran        "
+echo -ne "NIV               "
+a.out /pub/pounds/CSC330/translations/NIV.txt
+echo -ne "fortran        "
+echo -ne "NKJV              "
+a.out /pub/pounds/CSC330/translations/NKJV.txt
+echo -ne "fortran        "
+echo -ne "NLT               "
+a.out /pub/pounds/CSC330/translations/NLT.txt
+echo -ne "fortran        "
+echo -ne "WEB               "
+a.out /pub/pounds/CSC330/translations/WEB.txt
+echo -ne "fortran        "
+echo -ne "YLT_original      "
+a.out /pub/pounds/CSC330/translations/YLT_original.txt
+echo -ne "fortran        "
+echo -ne "YLT               "
+a.out /pub/pounds/CSC330/translations/YLT.txt
